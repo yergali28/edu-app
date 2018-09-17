@@ -1,0 +1,396 @@
+body{ 
+   font-family: Arial, Helvetica, sans-serif;
+   color: #6d6d6d;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+div.top{
+	height: 20px;
+	background-color: #434343;
+}
+div.header{
+	height: 54px;
+	background-image: url(images/menu.jpg);
+}
+div.header_center{
+	width: 1024px;
+	margin: 0 auto;
+}
+div.header_center a{
+}
+div.header p{
+	float: left;
+	margin-left: 8px;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+		padding: 18px 10px 18px 10px;
+}
+div.wrap{
+	height: 54px;
+	float: left;
+	background-image: url(images/add_icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position:  left;
+}
+div.wrap:hover{
+	background-color: #0aa0dc;
+}
+div.wrap1{
+	height: 54px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position:  left;
+}
+div.wrap1 p{
+	margin-left: 0px;
+}
+div.wrap1:hover{
+	background-color: #0aa0dc;
+}
+div.top p{
+	margin: 0 auto;
+	width: 292px;
+	color: white;
+	font-size: 13px;
+
+}
+div.ontustik{
+	width: 600px;
+	height: 317px;
+	background-image: url(images/ontu_logo.jpg);
+	margin: 0 auto;
+	padding-top: 250px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+div.main_wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+div.main_wrap input {
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid #999999;
+	padding: 6px;
+	width: 263px;
+
+}
+input.choose_file{
+	float: left;
+}
+td,tr{
+	padding: 10px;
+	width: 570px;
+	background-color: #f7f7f7;
+}
+h2{
+	text-align: center;
+	padding: 10px;
+}
+input.inp_subm{
+	 float: right;
+	 cursor: pointer;
+}
+input.inp_subm:hover{
+	background-color: #6d6d6d;
+}
+        /* ������� ����� ����-�������� */
+        
+        *,
+        *:before,
+        *:after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        
+        .top-nav {
+            background: #555555;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+            left: 0;
+            opacity: 0.95;
+            padding: 8px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: 9999;
+        }
+        
+        .topnav-wrapper {
+            margin: 0 auto;
+            max-width: 980px;
+        }
+        
+        .top-logo {
+            color: #ddd;
+            font: bold 16px/20px "Crete Round", serif;
+            padding-left: 10px;
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+        }
+        
+        .top-logo a {
+            color: #B8B8B8;
+            text-decoration: none;
+        }
+        
+        .top-logo a:hover {
+            color: #ddd;
+        }
+        
+        .topnav-right {
+            float: right;
+        }
+        
+        .right-menu {
+            margin: 0;
+            overflow: hidden;
+        }
+        
+        .right-menu li {
+            float: left;
+            list-style-type: none;
+            margin: 0;
+        }
+        
+        .right-menu li a {
+            color: #B8B8B8;
+            display: block;
+            padding: 0.05em 0.75em;
+            text-decoration: none;
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .right-menu li a:hover {
+            color: #fff;
+            text-shadow: none;
+        }
+        
+        .right-menu li span {
+            font-size: 16px;
+            line-height: 1.2;
+        }
+        
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 25px 10px 0;
+        }
+        
+        h1 {
+            padding: 50px 0;
+            font-weight: 400;
+            text-align: center;
+        }
+        
+        .info {
+            color: rgba(78, 78, 78, 0.8);
+            width: 100%;
+            margin: 40px auto;
+            text-align: center;
+            font-weight: 300;
+        }
+        
+        .info a {
+            color: #bbb;
+            text-decoration: none;
+        }
+        
+        .info a:hover {
+            color: #888;
+        }
+        /* ����� ������ ����-�������� */
+        /* ������� ��������� ����� */
+        
+        .tabs {
+            min-width: 320px;
+            max-width: 800px;
+            padding: 0px;
+            margin: 0 auto;
+        }
+        /* ����� ������ � ����������� */
+        
+        .tabs > section {
+            display: none;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ddd;
+        }
+        
+        .tabs > section > p {
+            margin: 0 0 5px;
+            line-height: 1.5;
+            color: #383838;
+            /* ��������� �������� */
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+        }
+        /* ��������� �������� �������� opacity */
+        
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        /* ������ �������� */
+        
+        .tabs > input {
+            display: none;
+            position: absolute;
+        }
+        /* ����� �������������� ������� (�����) */
+        
+        .tabs > label {
+            display: inline-block;
+            margin: 0 0 -1px;
+            padding: 15px 25px;
+            font-weight: 600;
+            text-align: center;
+            color: #aaa;
+            border: 0px solid #ddd;
+            border-width: 1px 1px 1px 1px;
+            background: #f1f1f1;
+            border-radius: 3px 3px 0 0;
+        }
+        /* �����-������ �� Font Awesome � ������� Unicode */
+        
+        .tabs > label:before {
+            font-family: fontawesome;
+            font-weight: normal;
+            margin-right: 10px;
+        }
+        
+        .tabs > label[for*="1"]:before {
+            content: "\f19a";
+        }
+        
+        .tabs > label[for*="2"]:before {
+            content: "\f17a";
+        }
+        
+        .tabs > label[for*="3"]:before {
+            content: "\f13b";
+        }
+        
+        .tabs > label[for*="4"]:before {
+            content: "\f13c";
+        }
+        /* ��������� ����� �������������� ������� ��� ��������� */
+        
+        .tabs > label:hover {
+            color: #888;
+            cursor: pointer;
+        }
+        /* ����� ��� �������� ������� */
+        
+        .tabs > input:checked + label {
+            color: #555;
+            border-top: 1px solid #009933;
+            border-bottom: 1px solid #fff;
+            background: #fff;
+        }
+        /* ��������� ������ � ������� ������������ :checked */
+        
+        #tab1:checked ~ #content-tab1,
+        #tab2:checked ~ #content-tab2,
+        #tab3:checked ~ #content-tab3,
+        #tab4:checked ~ #content-tab4 {
+            display: block;
+        }
+        /* ������� ����� � �������������� 
+* � ��������� ������ �� ����� �������
+*/
+        
+        @media screen and (max-width: 680px) {
+            .tabs > label {
+                font-size: 0;
+            }
+            .tabs > label:before {
+                margin: 0;
+                font-size: 18px;
+            }
+        }
+        /* �������� ���������� ������� 
+*  �������������� ��� ����� �������
+*/
+        
+        @media screen and (max-width: 400px) {
+            .tabs > label {
+                padding: 15px;
+            }
+        }
+
+/*
+    Drop down menu design
+ */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    margin: 0 auto;
+    padding: 18px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #0aa0dc;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+/*
+    Students dropdown button
+ */
+
