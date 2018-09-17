@@ -8,9 +8,9 @@
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/spring_students_crm?useUnicode=true&amp;serverTimezone=UTC&amp;characterEncoding=utf-8" />
-        <property name="username" value="root" />
-        <property name="password" value="salemALEM*11" />
+        <property name="url" value="jdbc:mysql://us-cdbr-iron-east-01.cleardb.net:3306/heroku_4f2893bc1f3b0f3?reconnect=true" />
+        <property name="username" value="b8893b55a4dcbc" />
+        <property name="password" value="8a6c8e48" />
     </bean>
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
